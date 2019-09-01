@@ -3,8 +3,8 @@ name: CI
 on: [push]
 
 jobs:
-  build:
+  first:
       runs-on: ubuntu-latest
       steps:
       - name: hugo build
-        uses: "../.github/actions/build"
+        uses: ../.github/actions/build
