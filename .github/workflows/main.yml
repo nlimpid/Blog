@@ -8,8 +8,9 @@ jobs:
       steps:
       - uses: actions/checkout@master
         with:
-          submodules: True
+          submodules: true
           ref: master
+          clean: false
       - name: hugo build
         uses: ./.github/actions/build
       - name: push to remote
