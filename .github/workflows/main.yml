@@ -9,6 +9,5 @@ jobs:
       - uses: actions/checkout@v1
         with:
           submodules: True
-      - uses: actions/setup-go@master
       - name: hugo build
         uses: ./.github/actions/build
