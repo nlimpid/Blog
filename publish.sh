@@ -9,6 +9,7 @@ git remote -v
 
 echo "Updating gh-pages branch"
 cd nlimpid.github.io
+git remote add github "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/nlimpid.github.io.git"
 git remote -v
 git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
 git push origin master
