@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
 
-hugo
+/usr/local/bin/hugo
 
 echo "----> Build is complete"
