@@ -12,4 +12,5 @@ RUN mkdir -p /usr/local/src \
 
 # 多半都用这个方法
 COPY entrypoint.sh /entrypoint.sh
+RUN chmod +x /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
