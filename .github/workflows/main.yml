@@ -12,4 +12,6 @@ jobs:
       - name: hugo build
         uses: ./.github/actions/build
       - name: push to remote
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: ./publish.sh
