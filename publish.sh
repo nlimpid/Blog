@@ -5,8 +5,12 @@ git config --global user.name "nlimpid"
 
 git status
 
+git remote -v
+
 echo "Updating gh-pages branch"
-cd nlimpid.github.io && git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
+cd nlimpid.github.io
+git remote -v
+git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
 git push origin master
 
 #echo "Pushing to github"
