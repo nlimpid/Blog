@@ -1,4 +1,14 @@
-baseURL = "http://example.org/"
+baseURL = "https://blog.nlimpid.com"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "hugo-paper"
+# 分页
+paginate =                    10
+paginatePath =                "page"
+
+# 启用 Emoji; see emoji-cheat-sheet.com
+enableEmoji =                 false
+
+# 创建robots.txt，建议设置为true
+enableRobotsTXT =             false
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
