@@ -11,3 +11,5 @@ jobs:
           submodules: True
       - name: hugo build
         uses: ./.github/actions/build
+      - name: push to remote
+        run: ./publish.sh
