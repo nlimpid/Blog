@@ -2,7 +2,8 @@ FROM alpine:latest
 
 
 RUN apk add --no-cache \
-    curl
+    curl \
+    git
 
 ENV VERSION 0.57.2
 RUN mkdir -p /usr/local/src \
