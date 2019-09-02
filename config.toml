@@ -4,4 +4,4 @@ title = "My New Hugo Site"
 theme = "paper"
 
 # 启用 Emoji; see emoji-cheat-sheet.com
-
+publishDir = "nlimpid.github.io"
