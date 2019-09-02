@@ -13,5 +13,5 @@ jobs:
         uses: ./.github/actions/build
       - name: push to remote
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TOKEN: ${{ secrets.TOKEN }}
         run: ./publish.sh
